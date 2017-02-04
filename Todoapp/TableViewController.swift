@@ -6,8 +6,12 @@
 //  Copyright © 2017年 KingCQ. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
-class TableViewController {
+class TableViewController: UIViewController {
+    var tableView: UITableView!
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
 }
