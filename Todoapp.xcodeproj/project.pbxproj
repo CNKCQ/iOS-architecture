@@ -12,6 +12,7 @@
 		3C7ACAEC1E4657C4003868F3 /* TableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7ACAEB1E4657C4003868F3 /* TableViewDataSource.swift */; };
 		3C7ACAEE1E4657DE003868F3 /* TableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7ACAED1E4657DE003868F3 /* TableViewDelegate.swift */; };
 		3C7ACAF11E465824003868F3 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7ACAF01E465824003868F3 /* TableViewController.swift */; };
+		3C7ACAF41E46597E003868F3 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7ACAF31E46597E003868F3 /* CustomTableViewCell.swift */; };
 		3CF42E091E30F27200D2A9C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF42E081E30F27200D2A9C0 /* AppDelegate.swift */; };
 		3CF42E0B1E30F27200D2A9C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF42E0A1E30F27200D2A9C0 /* ViewController.swift */; };
 		3CF42E0E1E30F27200D2A9C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF42E0C1E30F27200D2A9C0 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 		3C7ACAEB1E4657C4003868F3 /* TableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewDataSource.swift; sourceTree = "<group>"; };
 		3C7ACAED1E4657DE003868F3 /* TableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewDelegate.swift; sourceTree = "<group>"; };
 		3C7ACAF01E465824003868F3 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		3C7ACAF31E46597E003868F3 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		3CF42E051E30F27200D2A9C0 /* Todoapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF42E081E30F27200D2A9C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CF42E0A1E30F27200D2A9C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +81,14 @@
 			name = Controller;
 			sourceTree = "<group>";
 		};
+		3C7ACAF21E465958003868F3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3C7ACAF31E46597E003868F3 /* CustomTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		3CF42DFC1E30F27200D2A9C0 = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +108,7 @@
 		3CF42E071E30F27200D2A9C0 /* Todoapp */ = {
 			isa = PBXGroup;
 			children = (
+				3C7ACAF21E465958003868F3 /* View */,
 				3C7ACAEF1E465800003868F3 /* Controller */,
 				3C7ACAEA1E465760003868F3 /* TableViewProtocol */,
 				3C7ACAE71E4656F7003868F3 /* viewModel */,
@@ -187,6 +198,7 @@
 			files = (
 				3C7ACAE61E46566F003868F3 /* CustomModel.swift in Sources */,
 				3C7ACAF11E465824003868F3 /* TableViewController.swift in Sources */,
+				3C7ACAF41E46597E003868F3 /* CustomTableViewCell.swift in Sources */,
 				3C7ACAEC1E4657C4003868F3 /* TableViewDataSource.swift in Sources */,
 				3CF42E0B1E30F27200D2A9C0 /* ViewController.swift in Sources */,
 				3CF42E091E30F27200D2A9C0 /* AppDelegate.swift in Sources */,
