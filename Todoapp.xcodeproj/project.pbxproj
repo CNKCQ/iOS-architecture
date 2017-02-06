@@ -48,6 +48,27 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3C7ACAF51E48C381003868F3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3C7ACAF61E48C38C003868F3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		3C7ACAF71E48C399003868F3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		3CF42DFC1E30F27200D2A9C0 = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +90,9 @@
 		3CF42E071E30F27200D2A9C0 /* Todoapp */ = {
 			isa = PBXGroup;
 			children = (
+				3C7ACAF71E48C399003868F3 /* Controller */,
+				3C7ACAF61E48C38C003868F3 /* ViewModel */,
+				3C7ACAF51E48C381003868F3 /* Model */,
 				3CF42E081E30F27200D2A9C0 /* AppDelegate.swift */,
 				3CF42E0A1E30F27200D2A9C0 /* ViewController.swift */,
 				3CF42E0C1E30F27200D2A9C0 /* Main.storyboard */,
@@ -379,6 +403,7 @@
 				3CF42E191E30F27200D2A9C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
