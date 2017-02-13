@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C23B4021E51F13300D5993E /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C23B4011E51F13300D5993E /* Reusable.swift */; };
+		3C23B4041E51F27F00D5993E /* UITableView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C23B4031E51F27F00D5993E /* UITableView+Reusable.swift */; };
 		3CF42E091E30F27200D2A9C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF42E081E30F27200D2A9C0 /* AppDelegate.swift */; };
 		3CF42E0B1E30F27200D2A9C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF42E0A1E30F27200D2A9C0 /* ViewController.swift */; };
 		3CF42E0E1E30F27200D2A9C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF42E0C1E30F27200D2A9C0 /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 
 /* Begin PBXFileReference section */
 		17D0C70733F01B66D2A48B03 /* Pods-Todoapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todoapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Todoapp/Pods-Todoapp.debug.xcconfig"; sourceTree = "<group>"; };
+		3C23B4011E51F13300D5993E /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		3C23B4031E51F27F00D5993E /* UITableView+Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Reusable.swift"; sourceTree = "<group>"; };
 		3CF42E051E30F27200D2A9C0 /* Todoapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF42E081E30F27200D2A9C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CF42E0A1E30F27200D2A9C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,25 +44,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C23B4001E51F00800D5993E /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				3C23B4011E51F13300D5993E /* Reusable.swift */,
+				3C23B4031E51F27F00D5993E /* UITableView+Reusable.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
 		3C7ACAF51E48C381003868F3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Model;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		3C7ACAF61E48C38C003868F3 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = ViewModel;
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		3C7ACAF71E48C399003868F3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				3CF42E0A1E30F27200D2A9C0 /* ViewController.swift */,
 			);
-			name = Controller;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		3CF42DFC1E30F27200D2A9C0 = {
@@ -82,11 +96,11 @@
 		3CF42E071E30F27200D2A9C0 /* Todoapp */ = {
 			isa = PBXGroup;
 			children = (
+				3C23B4001E51F00800D5993E /* Protocol */,
 				3C7ACAF71E48C399003868F3 /* Controller */,
 				3C7ACAF61E48C38C003868F3 /* ViewModel */,
 				3C7ACAF51E48C381003868F3 /* Model */,
 				3CF42E081E30F27200D2A9C0 /* AppDelegate.swift */,
-				3CF42E0A1E30F27200D2A9C0 /* ViewController.swift */,
 				3CF42E0C1E30F27200D2A9C0 /* Main.storyboard */,
 				3CF42E0F1E30F27200D2A9C0 /* Assets.xcassets */,
 				3CF42E111E30F27200D2A9C0 /* LaunchScreen.storyboard */,
@@ -236,6 +250,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C23B4041E51F27F00D5993E /* UITableView+Reusable.swift in Sources */,
+				3C23B4021E51F13300D5993E /* Reusable.swift in Sources */,
 				3CF42E0B1E30F27200D2A9C0 /* ViewController.swift in Sources */,
 				3CF42E091E30F27200D2A9C0 /* AppDelegate.swift in Sources */,
 			);
