@@ -11,6 +11,7 @@
 		3C23B4161E532CD300D5993E /* UITableView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C23B4101E532CD300D5993E /* UITableView+Reusable.swift */; };
 		3C23B4251E532F3200D5993E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C23B4241E532F3200D5993E /* TableViewCell.swift */; };
 		3C23B4271E532F9F00D5993E /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C23B4261E532F9F00D5993E /* ViewModel.swift */; };
+		3C23B42A1E53304D00D5993E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C23B4291E53304D00D5993E /* Model.swift */; };
 		3CF42E091E30F27200D2A9C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF42E081E30F27200D2A9C0 /* AppDelegate.swift */; };
 		3CF42E0B1E30F27200D2A9C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF42E0A1E30F27200D2A9C0 /* ViewController.swift */; };
 		3CF42E0E1E30F27200D2A9C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF42E0C1E30F27200D2A9C0 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 		3C23B4101E532CD300D5993E /* UITableView+Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Reusable.swift"; sourceTree = "<group>"; };
 		3C23B4241E532F3200D5993E /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		3C23B4261E532F9F00D5993E /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		3C23B4291E53304D00D5993E /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		3CF42E051E30F27200D2A9C0 /* Todoapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF42E081E30F27200D2A9C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CF42E0A1E30F27200D2A9C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +83,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		3C23B4281E53301900D5993E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3C23B4291E53304D00D5993E /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		3C7ACAEF1E465800003868F3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +120,7 @@
 		3CF42E071E30F27200D2A9C0 /* Todoapp */ = {
 			isa = PBXGroup;
 			children = (
+				3C23B4281E53301900D5993E /* Model */,
 				3C23B4231E532ECC00D5993E /* View */,
 				3C23B4221E532E9E00D5993E /* ViewModel */,
 				3C23B40E1E532CD300D5993E /* Protocol */,
@@ -256,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C23B42A1E53304D00D5993E /* Model.swift in Sources */,
 				3C23B4251E532F3200D5993E /* TableViewCell.swift in Sources */,
 				3C23B4161E532CD300D5993E /* UITableView+Reusable.swift in Sources */,
 				3CF42E0B1E30F27200D2A9C0 /* ViewController.swift in Sources */,
